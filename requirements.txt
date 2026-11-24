@@ -1,0 +1,26 @@
+# Install with `python -m pip install --no-deps -r requirements.txt`.
+# MediaPipe declares optional JAX/audio packages that this Hands-only project
+# does not use; list the runtime dependencies explicitly to avoid those large
+# extras. Keep versions compatible with Python 3.11 and NumPy 1.x.
+mediapipe==0.10.21
+absl-py>=2,<3
+attrs>=23,<26
+flatbuffers>=23,<26
+numpy>=1.24,<2
+opencv-contrib-python==4.11.0.86
+protobuf>=4.25.3,<5
+scipy>=1.10,<2
+threadpoolctl>=3.1,<4
+scikit-learn>=1.4,<1.7
+joblib>=1.3,<2
+cloudpickle>=2.2,<4
+matplotlib>=3.8,<4
+contourpy>=1.0.1
+cycler>=0.10
+fonttools>=4.22
+kiwisolver>=1.3.1
+packaging>=20
+pillow>=8
+pyparsing>=2.3
+python-dateutil>=2.8,<3
+six>=1.5
